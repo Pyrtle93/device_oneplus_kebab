@@ -20,7 +20,7 @@
 DEVICE_PATH := device/oneplus/kebab
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 420
 
 # Fingerprint
 SOONG_CONFIG_ONEPLUS_KONA_FOD_POS_X = 453
