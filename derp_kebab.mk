@@ -21,11 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from kebab device
 $(call inherit-product, device/oneplus/kebab/device.mk)
 
-# Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
-
-# Official
-EVO_BUILD_TYPE := OFFICIAL
+# Inherit some common DerpFest stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # FOD Animation
 EXTRA_FOD_ANIMATIONS := true
@@ -34,11 +31,11 @@ EXTRA_FOD_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_kebab
+PRODUCT_NAME := derp_kebab
 PRODUCT_DEVICE := kebab
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := KB2003
+PRODUCT_MODEL := Op8T KB2005
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 

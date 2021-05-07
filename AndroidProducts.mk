@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_kebab.mk
+    $(LOCAL_DIR)/derp_kebab.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_kebab-user \
-    evolution_kebab-userdebug \
-    evolution_kebab-eng
+    derp_kebab-user \
+    derp_kebab-userdebug \
+    derp_kebab-eng
